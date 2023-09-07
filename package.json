@@ -13,9 +13,6 @@
     "test:coverage": "jest --coverage --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
     "test:ci": "jest --runInBand",
-    "sonar": "sonar-scanner",
-    "sonar:server-local": "docker-compose up",
-    "sonar:scan-local": "yarn test:coverage && node sonar-project.js",
     "typecheck": "tsc --noEmit"
   },
   "lint-staged": {
