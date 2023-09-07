@@ -1,38 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Isso é um projeto boilerplate onde guardo as configurações e padrões mais utilizados por mim em projetos com [Next.js](https://nextjs.org/).
 
-## Getting Started
+## Utilizando o projeto
 
-First, run the development server:
+Para utilizar um projeto a partir deste, basta executar no terminal um dos seguintes comandos, de acordo com a sua preferência de gerenciador de dependências:
 
 ```bash
-npm run dev
+npx create-next-app --example https://github.com/FranLyrio/boilerplate-page-router
 # or
-yarn dev
+yarn create next-app --example https://github.com/FranLyrio/boilerplate-page-router
 # or
-pnpm dev
+pnpm create next-app --example https://github.com/FranLyrio/boilerplate-page-router
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ele irá te perguntar o nome que você deseja dar ao projeto, instalar as dependências e a partir daí, você já pode iniciar o desenvolvimento da sua aplicação.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Tecnologias utilizadas
+- [Next.js](https://nextjs.org/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://typicode.github.io/husky/)
+- [Lint Staged](https://github.com/okonet/lint-staged)
+- [Storybook](https://storybook.js.org/)
+- [GitHub Actions](https://docs.github.com/en/actions)
+- [Jest](https://jestjs.io/)
+- [React Testin Library](https://testing-library.com/)
